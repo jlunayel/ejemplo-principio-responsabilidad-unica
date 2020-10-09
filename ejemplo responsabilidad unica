@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class menu{
+	public static void main(String[] args) {
+		
+		Scanner entrar = new Scanner(System.in);
+
+		String nombre = "";
+		
+
+		System.out.println("digite su nombre");
+		nombre = entrar.nextLine();
+
+		System.out.println("su nombre es" + nombre);
+
+	}
+}
