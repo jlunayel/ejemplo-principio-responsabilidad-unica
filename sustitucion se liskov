@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class datos {
+
+	int width;
+	int height;
+
+	 width = new Scanner(System.in);
+	 int width = "";
+
+	  height = new Scanner(System.in);
+	 int height = "";
+
+	int calculateArea() {
+		return width * height;
+	}
+	
+}
+
+public class Rectangle {
+	public void testArea() {
+		Rectangle r = new Rectangle();
+		r.setWidth(width);
+		r.setHeight(height);
+		assertEquals(calculateArea());
+}
+
+public class Square{
+public void testArea() {
+		Rectangle r = new Rectangle();
+		r.setWidth(width);
+		r.setHeight(height);
+		assertEquals(calculateArea());
+}}}
