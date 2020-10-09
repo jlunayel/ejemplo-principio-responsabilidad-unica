@@ -1,0 +1,21 @@
+public interface Persistence {
+void save(Shopping shopping);
+}
+
+public class SqlDatabase implements Persistence {
+
+@Override
+public void save(Shopping shopping){
+}
+}
+
+public interface PaymentMethod {
+void pay(Shopping shopping);
+}
+
+public class CreditCard implements PaymentMethod {
+
+@Override
+public void pay(Shopping shopping){
+}
+}
