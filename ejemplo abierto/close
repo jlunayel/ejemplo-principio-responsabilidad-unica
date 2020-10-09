@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+class producto{
+
+	 producto = new Scanner(System.in);
+	 String producto = "";
+	 System.out.System("ingrese el producto");
+	 producto = entrar.nextLine();
+	 
+
+}
